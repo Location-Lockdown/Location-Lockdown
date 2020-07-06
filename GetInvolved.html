@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Lockdown</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body class="body" background="images/template 1.png">
+  <div class="nav">
+    <ul>
+      <li><a href="Homepage.html">Home</a></li>
+      <li><a href="Stories.html" target="_blank">Stories</a></li>
+      <li><a href="GetInvolved.html" target="_blank">Get Involved</a></li>
+      <form action="Stories.html">
+        <input type="text" placeholder="Search">
+        <button class="search main-btn"type="submit">Search</button>
+      </form>
+    </ul>
+  </div>
+
+  <div id="stories-heading">
+    <h1 class="heading">Get Involved!</h1>
+  </div>
+  <!--change heading title and add instruction also add jpg picture submission section-->
+  <div class="contact-form">
+    <h1>Submission Form</h1>
+    <p class="instructions" style="color: black;">Please fill in the form to submit your photo. Your image must be 
+    uploaded either in .jpg or .png</p>
+    <p class="instructions"  style="color: black;">Thank you for your contribution!</p>
+    <div class="txtb">
+      <label>Full Name* :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Name" id="fullName"/>
+      <br><br>
+    </div>
+
+    <div class="txtb">
+      <label>Email Address* :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Email Address" id="email"/>
+      <br><br>
+    </div>
+
+    <div class="txtb">
+      <label>Contact Number* :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Contact Number" id="contactNumber"/>
+      <br><br>
+    </div>
+
+    <div class="txtb">
+      <label>Please indicate your continent of residence* :</label><br>
+      <div class="continent-btn">
+        <select id="Continent">
+          <option disabled selected value> -- Select a Continent -- </option> 
+          <option value="Europe">Europe</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Africa">Africa</option>
+          <option value="Oceania">Oceania</option>
+          <option value="Asia">Asia</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="txtb">
+      <label>Upload image here* :</label>
+      <form action="Stories.html">
+        <button class="main-btn" type="submit">Upload</button>
+        </form>
+    </div>
+    
+    <div class="txtb">
+      <label>Message* :</label>
+      <textarea id="message"></textarea>
+    </div>
+
+    <div class="btn">
+      <button onclick="sendInfo();">Send contact</button>
+    </div>
+  </div>
+
+  <footer>
+    <div style="background-color: #01a8b452;" class="footer"> 
+      <h6 class="subtitles">Follow Us!</h6>
+      <a href="https://twitter.com/home"><img class="social-media" src="images/Twitter.png"  alt="Twitter"></a>
+      <a href="https://en-gb.facebook.com/"><img class="social-media" src="images/Facebook.png"  alt="Facebook"></a>
+      <a href="https://www.instagram.com/"><img class="social-media" src="images/Instagram.png"  alt="Instagram"></a>
+      <p class="copyright">©2020 Made with💙by Jessica and Micaela for Code First: Girls.</p>
+    </div>
+  </footer>  
+</body>
+</html>
