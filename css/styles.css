@@ -111,28 +111,20 @@ p{
 }
 #our-supporters{
   height:700px;  
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
 
 }
 .homepage-content{
   margin-left: 300px;
   margin-right: 300px;
 }
-.logo-container {
-  border:5px red solid;
+.logo{
+  height:120px;
 }
 
-/*.img.logo {
- 
-  max-width: 200px;
-  min-height: 400px;
-  padding-left: 5em;
-  padding-right: 5em;
-}*/
-
-/* -------------------------------------------------------------------------- */
-/*                                   FOOTER                                   */
-/* -------------------------------------------------------------------------- */
+/*---------------------------------------------------------------------------*/
+/*                                   FOOTER                                  */
+/* --------------------------------------------------------------------------*/
 
 .footer{
   margin: 0px;
@@ -236,8 +228,7 @@ img:hover{
     padding: 1em 0;
     float: left;
     width: 90%;
-    border: 5px red solid;
-   
+
   }
  @media screen and (max-width: 640px){
     .container{
